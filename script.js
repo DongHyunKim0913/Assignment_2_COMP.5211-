@@ -28,7 +28,7 @@ function startStop(timerId) {
         button.textContent = 'Start';
     } else {
         interval = setInterval(() => {
-            time += 1;
+            time += 10;
             updateDisplay(timerId);
         }, 10);
         button.textContent = 'Stop';
